@@ -1,0 +1,43 @@
+.expert-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.expert-content h2{
+    font-size: clamp(25px, 4vw, 35px);
+}
+.expert-content i{
+    width: 50px;
+}
+.expert-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    grid-gap: 6rem;
+    align-items: center;
+    margin: 40px 0;
+}
+.expert-box div{
+    display: flex;
+}
+
+.expert-box div img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.expert-box h4{
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: none;
+}
+.expert-box p{
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.expert-box hr{
+    margin-top: 30px;
+    
+}

@@ -1,0 +1,19 @@
+<section>
+    <div class="expert-content">
+        <h2>Take a look at my <br> past experience</h2>
+        <div>
+            <i class='bx bx-arrow-back'></i>
+        </div>
+    </div>
+    <div class="expert-container">
+        <div class="expert-box" *ngFor="let job of jobs">
+            <div>
+                <img src="{{job.imgUrl}}" alt="">
+                <h4>{{job.nom}}</h4>
+            </div>
+            <h6>{{job.profes}}</h6>
+            <p>{{job.paragraphe}}</p>
+            <hr>
+        </div>
+    </div>
+</section>

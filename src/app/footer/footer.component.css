@@ -1,0 +1,38 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+footer .left{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+
+}
+footer .right{
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer .right .contact, .pages{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+footer .right h2{
+    font-size: 14px;
+    margin-bottom: 20px;
+
+}
+footer .right .contact h4{
+    font-size: 13px;
+    margin-bottom: 5px;
+
+}
+footer .right .contact p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+footer .right .pages{
+
+}
