@@ -2,10 +2,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 10%;
+    padding: 10px 10%;
     z-index: 1000;
     position: sticky;
     top: 0;
+    background-color: chocolate;
 }
 nav{
     display: flex;
@@ -15,5 +16,5 @@ nav a{
     color: white;
     font-size: 14px;
     text-transform: capitalize;
-    margin: 15px;
+    margin: 0 15px;
 }

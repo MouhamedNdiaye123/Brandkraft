@@ -7,6 +7,7 @@
     padding: 15px 25px;
     transition: .2s ease-in-out;
     margin: 10px 0;
+    text-transform: capitalize;
 }
 .btn:hover{
     background-color: rgb(132, 235, 15);
