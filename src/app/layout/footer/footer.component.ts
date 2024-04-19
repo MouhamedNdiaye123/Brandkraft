@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { IconComponent } from '../shared/Components/icon/icon.component';
-import { ButtonComponent } from '../shared/Components/button/button.component';
-import { LogoComponent } from '../shared/Components/logo/logo.component';
+import { IconComponent } from '../../shared/Components/icon/icon.component';
+import { ButtonComponent } from '../../shared/Components/button/button.component';
+import { LogoComponent } from '../../shared/Components/logo/logo.component';
 
 @Component({
   selector: 'app-footer',
